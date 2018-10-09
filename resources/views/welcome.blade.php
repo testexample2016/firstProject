@@ -40,19 +40,19 @@
 
             <div class="form-group ">
                 <label for="email">Your E-Mail</label>
-                <input class="form-control" type="text" name="email" id="email" value="{{ Request::old('email') }}">
+                <input class="form-control" type="text" name="email" id="email" value="{{ Request::old('email') }}" required>
                 
             </div>
 
             <div class="form-group">
                 <label for="first_name">First Name</label>
-                <input class="form-control" type="text" name="first_name" id="first_name" value="{{ Request::old('first_name') }}">
+                <input class="form-control" type="text" name="first_name" id="first_name" value="{{ Request::old('first_name') }}" required>
                 
             </div>
 
             <div class="form-group">
                 <label for="password">Your Password</label>
-                <input class="form-control" type="password" name="password" id="password" value="{{ Request::old('password') }}">
+                <input class="form-control" type="password" name="password" id="password" value="{{ Request::old('password') }}" required>
                 
             </div>
 
@@ -72,14 +72,14 @@
 
             <div class="form-group">
                 <label for="email">Your E-Mail</label>
-                <input class="form-control" type="text" name="email" id="email" value="{{ Request::old('email') }}">
+                <input class="form-control" type="text" name="email" id="email" value="{{ Request::old('email') }}" required>
                 
             </div>
 
            
             <div class="form-group">
                 <label for="password">Your Password</label>
-                <input class="form-control" type="password" name="password" id="password" value="{{ Request::old('email') }}">
+                <input class="form-control" type="password" name="password" id="password" value="{{ Request::old('email') }}" required>
                 
             </div>
 
